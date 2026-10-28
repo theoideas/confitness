@@ -1,0 +1,6 @@
+{
+  "name": "Confitness",
+  "description": "Entrenamiento de fuerza y calistenia desde casa. Construye masa muscular sin pisar un gimnasio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

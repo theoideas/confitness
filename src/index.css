@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0C0C0C;
+  --color-surface: #1A1A1A;
+  --color-text: #FAFAFA;
+  --color-volt: #CCFF00;
+  
+  --font-manrope: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Syne', sans-serif, -apple-system, BlinkMacSystemFont;
+}
+
+@layer base {
+  :root {
+    --font-manrope: 'Manrope', sans-serif;
+  }
+
+  body {
+    background-color: var(--color-bg, #0C0C0C);
+    color: var(--color-text, #FAFAFA);
+    font-family: var(--font-manrope, 'Manrope', sans-serif);
+    overflow-x: hidden;
+  }
+}
+
+.font-heading {
+  font-family: var(--font-heading, 'Syne', sans-serif);
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  font-weight: 800;
+}
+
+.text-stroke-subtle {
+  -webkit-text-stroke: 1.5px rgba(250, 250, 250, 0.15);
+  color: transparent;
+}
+
+.text-stroke-volt {
+  -webkit-text-stroke: 1.5px rgba(204, 255, 0, 0.4);
+  color: transparent;
+}
+
